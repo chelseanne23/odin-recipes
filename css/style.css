@@ -1,48 +1,22 @@
 body {
   background-color: #fafafa;
   font-family: Helvetica, Arial, sans-serif;
+  box-sizing: border-box;
 }
 .title {
   text-align: center;
 }
-img {
-  height: 400px;
-  width: auto;
-  border-top-left-radius: 10px;
-  border-top-right-radius: 30px;
-  border-bottom-left-radius: 20px;
-  border-bottom-right-radius: 5px;
+img,
+.image {
+  width: 300px;
+  height: auto;
+  margin: 0 auto;
+  display: block;
 }
-div.food-pic {
-  text-align: center;
-}
-.button-container {
-  text-align: center;
-}
-.button-link {
-  padding: 10px 20px;
+
+a {
   display: inline-block;
-  text-decoration: none;
-  background-color: #c4c1e0;
-  color: black;
-  border-radius: 4px;
-}
-ul {
-  text-align: center;
-  padding: 0px;
-}
-.recipe,
-.link {
-  display: inline-block;
-}
-div.bordered-container {
-  text-align: center;
-}
-p.bordered-text {
-  display: inline-block;
-  text-align: center;
   padding: 10px;
-  width: 650px;
-  border: 2px solid #c4c1e0;
-  border-radius: 10px;
+  margin: 3px;
+  border: 2px dotted #7c73e6;
 }
