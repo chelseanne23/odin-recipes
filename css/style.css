@@ -3,8 +3,21 @@ body {
   font-family: Helvetica, Arial, sans-serif;
   box-sizing: border-box;
 }
+div.content {
+  background-color: #ffe9e3;
+  margin: 0 auto;
+  width: 90%;
+  height: auto;
+}
 .title {
   text-align: center;
+}
+h1.title {
+  background-color: #fafafa;
+  padding: 15px 3px;
+  margin: 0 auto;
+  width: 20%;
+  border: 20px solid #ffe9e3;
 }
 img,
 .image {
@@ -12,11 +25,20 @@ img,
   height: auto;
   margin: 0 auto;
   display: block;
+  border-radius: 20%;
 }
-
+div.description {
+  background-color: #fafafa;
+  padding: 3px 15px;
+  margin: 0 auto;
+  width: 40%;
+  border: 20px solid #ffe9e3;
+}
 a {
   display: inline-block;
+  background-color: #fafafa;
   padding: 10px;
-  margin: 3px;
+  margin: 10px;
   border: 2px dotted #7c73e6;
+  text-align: center;
 }
