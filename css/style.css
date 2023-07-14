@@ -6,11 +6,16 @@ body {
 div.content {
   background-color: #ffe9e3;
   margin: 0 auto;
-  width: 90%;
+  width: auto;
   height: auto;
+  margin-bottom: 70px;
+  margin-top: 70px;
+  margin-left: 70px;
+  margin-right: 70px;
 }
 .title {
   text-align: center;
+  border-radius: 20px;
 }
 h1.title {
   background-color: #fafafa;
@@ -34,6 +39,12 @@ div.description {
   width: 40%;
   border: 20px solid #ffe9e3;
 }
+ul {
+  list-style-type: none;
+  width: 300px;
+  margin: 0 auto;
+  text-align: center;
+}
 a {
   display: inline-block;
   background-color: #fafafa;
@@ -41,4 +52,9 @@ a {
   margin: 10px;
   border: 2px dotted #7c73e6;
   text-align: center;
+  color: black;
+}
+
+a:hover {
+  background-color: #7c73e6;
 }
